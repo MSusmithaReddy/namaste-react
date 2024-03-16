@@ -1,3 +1,150 @@
-#heading_new {
-    color: red;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .main_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
 }
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-options > ul {
+    display: flex;
+    float: right;
+    list-style-type: none;
+}
+
+.nav-options > ul > li {
+    padding-right: 45px;
+    font-size: 18px;
+}
+
+.search-bar {
+    padding: 10px;
+    height: 20px;
+    width: 400px;
+}
+
+.restro-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 10;
+    column-gap: 5;
+}
+
+.res-card {
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+    background-color: pink;
+    cursor: pointer;
+}
+
+.res-card >a {
+    text-decoration: none;
+}
+
+.res-menu-container {
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    max-width: 800px;
+    margin: 20px auto 0;
+    border: 1px solid lightcoral;
+    background: lightcoral;
+    color: white;
+}
+
+.res-menu-card {
+    display: flex;
+    border: 1px solid lightblue;
+    background: lightblue;
+    padding: 10px;
+    margin: 20px auto 0;
+    color: black;
+    justify-content: space-between;
+}
+
+.res-menu-card >img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+
+.res-card:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add your box shadow styles here */
+  /* }
+
+.res-logo {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.filter-btn {
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10;
+    column-gap: 10;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.shimmer-effect {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    background: rgba(190, 190, 190, 0.2);
+    background: linear-gradient(
+    to right,
+    rgba(190, 190, 190, 0.2) 8%,
+    rgba(190, 190, 190, 0.3) 18%,
+    rgba(190, 190, 190, 0.2) 33%
+    );
+    background-size: 800px 100px;
+    animation: wave-squares 5s infinite ease-out;
+}
+
+.login-button {
+    width: 100px;
+}
+
+.error-text {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.user-info {
+  background: lightcyan;
+  padding: 20px;
+  width: 380px;
+} */
+
+/* .user-info >img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+} */
