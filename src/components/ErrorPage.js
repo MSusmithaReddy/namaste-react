@@ -1,10 +1,9 @@
-import { useState } from 'react';
+
 import { useRouteError } from 'react-router-dom';
 
 const ErrorPage = () => {
     const err = useRouteError();
     const { error } = err;
-    debugger;
     return (
         <>
          <div className='error-text'>Oops! Something Went Wrong</div>
