@@ -40,10 +40,10 @@ const InputField = ({ onSerachInputChange }) => {
               placeholder={val.name}
               onChange={onSerachInputChange}
               className="border rounded-full p-3 w-[100%] mb-4 font-semibold"
-              label={{ color: val.showArrow ? "#000" : "#fff" }}
               style={{
                 width: val.width,
                 marginRight: val.width == "45%" ? "5px" : "",
+                color: val.showArrow ? "#000" : "#D9D9D9"
               }}
             ></input>
             <div className="absolute right-[15px] top-[0px]">
